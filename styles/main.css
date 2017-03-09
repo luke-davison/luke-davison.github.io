@@ -1,5 +1,30 @@
 body {
-  background-image: url("background.jpeg");
-  background-size: cover;
-  background-color: black;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  background-image: "https://img.clipartfest.com/279f5a1134c40d219cd5ed63b5abbe2c_notepad-page-clip-art-free-notepad-clipart-graphics_788-1095.svg";
+}
+@media only screen and (max-width: 750px) {
+    body {
+        width: 300px;
+    }
+}
+.my-title {
+  padding-top: 20px;
+
+}
+.motto {
+
+}
+.image-row {
+  float: left;
+}
+
+.nav-pic {
+  padding: 20px;
+
+}
+footer {
+  clear: both;
+  padding: 10px;
 }
