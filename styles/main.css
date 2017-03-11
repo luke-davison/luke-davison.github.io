@@ -1,30 +1,82 @@
 body {
-  width: 700px;
-  text-align: center;
-  margin: 0 auto;
-  background-image: "https://img.clipartfest.com/279f5a1134c40d219cd5ed63b5abbe2c_notepad-page-clip-art-free-notepad-clipart-graphics_788-1095.svg";
+    width: 960px;
+    margin: auto;
+    background-image: url("lined-paper2.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+    font-family: "Coming Soon", cursive;
+    font-weight: bold;
 }
-@media only screen and (max-width: 750px) {
-    body {
-        width: 300px;
-    }
+.container {
+    margin: 0;
+    width: 960px;
 }
+
 .my-title {
-  padding-top: 20px;
-
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    font-weight: bolder;
 }
-.motto {
 
+.my-subtitle {
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    font-weight: bolder;
 }
-.image-row {
-  float: left;
+.row {
+    padding: 0;
+    margin: 0;
 }
 
 .nav-pic {
-  padding: 20px;
-
+    display: inline-block;
+    float: left;
 }
-footer {
-  clear: both;
-  padding: 10px;
+.blog-text {
+    margin: 0;
+    padding-left: 50px;
+}
+.nav-menu {
+    padding-left: 30;
+    margin: 0;
+    width: 270;;
+    float: right;
+}
+.my-footer {
+    clear: both;
+    text-align: center;
+}
+img {
+    margin: auto;
+}
+P {
+    line-height: 29px;
+    margin-bottom: 29px;
+    display: block;
+    text-emphasis: bold;
+}
+li {
+    line-height: 29px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.sub-header {
+    text-align: center;
+    font-weight: bolder;
+}
+.site-nav{
+    text-align: center;
+}
+a {
+    color: black;
+}
+.prev-button {
+    padding-left: 140;
+}
+.next-button {
+    text-align: right;
+    padding-right: 10;
 }

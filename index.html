@@ -1,38 +1,48 @@
 <html>
     <head>
-        <title>Luke's Blog</title>
+        <meta charset="utf-8">
 
-        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <title>Luke's Blog</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
 
     </head>
 
     <body>
-        <header>
-            <div class = "my-title">
-                <h1>Luke Davison</h1>
+        <div class="container">
+            <div class="row">
+                <div class ="ten columns offset-by-two my-title">
+                    <h1>Luke Davison</h1>
+                </div>
             </div>
-            <div class="motto">
-                <h3>Spends his days pressing buttons on his keyboard</h3>
+            <div class="row">
+                <div class ="ten columns offset-by-two my-subtitle">
+                    <h5>Does computer stuff </h5>
+                </div>
             </div>
-        </header>
-        <div class="image-row">
-            <div class = "nav-pic">
-                <a href="about.html"><img src="http://placehold.it/250x250" alt="About"></a>
+            <div class="row">
+                <div class = "five columns offset-by-two nav-pic">
+                    <a href="about.html"><img src="about-link.png" alt="About Me"></a>
+                </div>
+                <div class = "five columns nav-pic">
+                    <a href="blog.html"><img src="blog-link.png" alt="My Blog"></a>
+                </div>
             </div>
-            <div class = "nav-pic">
-                <a href="blog/blog.html"><img src="http://placehold.it/250x250" alt="Blog"></a>
+            <div class="row">
+                <div class = "five columns offset-by-two nav-pic">
+                    <a href="projects/projects.html"><img src="projects-link.png" alt="My Projects"></a>
+                </div>
+                <div class = "five columns columns nav-pic">
+                    <a href="#"><img src="other-link.png" alt="Other"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns my-footer">
+                    Thanks for visiting!
+                </div>
             </div>
         </div>
-        <div class="image-row">
-            <div class = "nav-pic">
-                <a href="projects/projects.html"><img src="http://placehold.it/250x250" alt="Projects"></a>
-            </div>
-            <div class = "nav-pic">
-                <a href="#"><img src="http://placehold.it/250x250" alt="Broken Link"></a>
-            </div>
-        </div>
-        <footer>
-            Thanks for visiting!
-        </footer>
     </body>
 </html>

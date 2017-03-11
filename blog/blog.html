@@ -2,37 +2,66 @@
     <head>
         <title>Luke's Blog</title>
 
-        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
 
     </head>
 
     <body>
-        <header>
-            <div class = "my-title">
-                <h1>Luke Davison</h1>
+        <div class="container">
+            <div class="row">
+                <div class ="eleven columns offset-by-one my-title">
+                    <h1 class="sub-header">Luke's Blog</h1>
+                </div>
             </div>
-            <div class="motto">
-                <h3>Spends his days pressing buttons on his keyboard</h3>
+            <div class="row content">
+                <div class = "eleven columns offset-by-one blog-text">
+                  <div class = "nav-menu">
+                    <div class = "blog-nav">
+                        <h5 class="sub-header">Recent Blog Entries</h5>
+                        <ul>
+                            <li><a href="t2-html-css-dom-p1.html">HTML, CSS, and Bad Analogies</a></li>
+                            <li><a href="c1-time-and-habits-blog.html">Time Management (or lack of it)</a></li>
+                            <li><a href="blog.html">Dev Bootcamp (or "Why I even have a blog")</a></li>
+                        </ul>
+                    </div>
+                      <div class = "site-nav">
+                          <h5 class="sub-header"><a href="index.html">Site Links</a></h5>
+                            <ul>
+                                <li><a href="../about.html">About Me</a></li>
+                                <li><a href="../blog/blog.html">Blog</a></li>
+                                <li><a href="../projects/projects.html">Projects</a></li>
+                            </ul>
+                      </div>
+                  </div>
+                  <h5 class="sub-header">Dev Bootcamp (or "Why I even have a blog")</h5>
+                  <p>13:05 on 7 March 2017.</p>
+                  <p>So, this is it.  Blog post number one.</p>
+                  <p>I have never had a blog before.  I figure in order to make a blog you need two things: something interesting to say and an audience.  Even now I don't really feel like I have the former, and yet I am here.  The latter I care less about.  If you are reading this, then I have an audience.  If you are not, then I don't need to be embarrassed about the mad ramblings I am probably going to be writing.</p>
+                  <p>Now, the reason I am making a blog is that I am currentlying enrolled in a Web Development bootcamp through Enspiral Dev Academy.  Their teaching model is based on one developed overseas and claims to be "An 19 weeks, full immersion web dev course that will change your life."  And that is why I am here - to have my life changed.</p>
+                  <p>As part of this course I have created this blog.  They have also asked me to write some "reflections" in my blog here regarding a video I have viewed from a founder of Dev Bootcamp.  A kind of homework, I guess.</p>
+                  <p>My first impression of the course has been pleasant.  The first week wasn't great for me as it involved being introduced to a large number of new programs that I hadn't known had existed.  I introduced myself to Linux.  That was interesting.  The instal process seemed both straight-forward and confusing at the same time.  But I got it working!  Except I could not get the right screen resolution or for it to use both my monitors at the same time.  So, I may have decided to quit using Linux and go back to Windows.</p>
+                  <p>(That's probably not something I should have put in my first blog post - that I have already quit something.)</p>
+                  <p>I'm not sure how I will go when we get past phase 0 of the course.  I know I enjoy working with people, and helping others out.  But I know I do like things done a certain way sometimes.  Not sure why I am mentioning that.  I should put emphasis on the word "sometimes" so don't worry future colleague/employer, I'm generally easy to work with.</p>
+                  <p>The last thing I am going to talk about is something unusual that has happened.  It's going to sound strange but hear me out.  I have been surprised at how much focus there is on making webpages in this Web Development programme (so far).  I was expecting more of the basics to start with (stuff like if/for/select case etc).  Don't get me wrong, there has been a lot of basics so far (being introduced to Github for example) but for some reason I wasn't expecting so much HTML.</p>
+                  <p>The follow on question to that observation is, "have I chosen the correct path?"  The answer is certainly "yes".  I already know I enjoy programming but HTML feels less like programming - more like design.  Yes, I agree that it is still programming as HTML is still just instructions given to the computer regarding what to do.  But there's no functions (yet, Javascript comes later).  But the reason why I know this will be a good path is that it is giving me experience with a medium I may not have otherwise spent my time exploring.  Plus, webpages are widely used (that's an understatement!).  I look forward to the next few lessons even if I will embrace the Javascript learning more.</p>
+                  </div>
             </div>
-        </header>
-        <div class="image-row">
-            <div class = "nav-pic">
-                <img src="http://placehold.it/250x250" alt="About">
-            </div>
-            <div class = "nav-pic">
-                <img src="http://placehold.it/250x250" alt="Blog">
+            <div class="row">
+                  <div class="six columns prev-button">
+                        <h5><a href="#">Previous Entry</a></h5>
+                  </div>
+                  <div class="six columns next-button">
+                        <h5><a href="c1-time-and-habits-blog.html">Next Entry</a></h5>
+                  </div>
+            <div
+            <div class="row">
+                <div class="twelve columns my-footer">
+                    <h5>Thanks for visiting!</h5>
+                </div>
             </div>
         </div>
-        <div class="image-row">
-            <div class = "nav-pic">
-                <img src="http://placehold.it/250x250" alt="Projects">
-            </div>
-            <div class = "nav-pic">
-                <img src="http://placehold.it/250x250" alt="Broken Link">
-            </div>
-        </div>
-        <footer>
-            footer
-        </footer>
     </body>
 </html>
