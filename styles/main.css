@@ -40,10 +40,13 @@ body {
     padding-left: 50px;
 }
 .nav-menu {
-    padding-left: 30;
     margin: 0;
-    width: 270;;
+    width: 270;
+    padding-left: 30px;
     float: right;
+}
+.blog-nav {
+
 }
 .my-footer {
     clear: both;
@@ -74,9 +77,9 @@ a {
     color: black;
 }
 .prev-button {
-    padding-left: 140;
+    padding-left: 140px;
 }
 .next-button {
     text-align: right;
-    padding-right: 10;
+    padding-right: 10px;
 }
