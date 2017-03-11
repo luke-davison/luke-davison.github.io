@@ -1,0 +1,85 @@
+body {
+    width: 960px;
+    margin: auto;
+    background-image: url("lined-paper2.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+    font-family: "Coming Soon", cursive;
+    font-weight: bold;
+}
+.container {
+    margin: 0;
+    width: 960px;
+}
+
+.my-title {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    font-weight: bolder;
+}
+
+.my-subtitle {
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-pic {
+    display: inline-block;
+    float: left;
+}
+.blog-text {
+    margin: 0;
+    padding-left: 50px;
+}
+.nav-menu {
+    margin: 0;
+    width: 270;
+    padding-left: 30px;
+    float: right;
+}
+.blog-nav {
+
+}
+.my-footer {
+    clear: both;
+    text-align: center;
+}
+img {
+    margin: auto;
+}
+P {
+    line-height: 29px;
+    margin-bottom: 29px;
+    display: block;
+    text-emphasis: bold;
+}
+li {
+    line-height: 29px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.sub-header {
+    text-align: center;
+    font-weight: bolder;
+}
+.site-nav{
+    text-align: center;
+}
+a {
+    color: black;
+}
+.prev-button {
+    padding-left: 140px;
+}
+.next-button {
+    text-align: right;
+    padding-right: 10px;
+}
