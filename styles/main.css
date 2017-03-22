@@ -41,7 +41,7 @@ body {
 }
 .nav-menu {
     margin: 0;
-    width: 270;
+    width: 270px;
     padding-left: 30px;
     float: right;
 }
@@ -82,4 +82,8 @@ a {
 .next-button {
     text-align: right;
     padding-right: 10px;
+}
+.halfpic {
+  max-width: 350px;
+  height: auto;
 }
