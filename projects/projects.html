@@ -1,9 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>Luke's Blog</title>
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+        <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
+
     </head>
 
     <body>
-        <p>Nothing here yet</p>
+        <div class="container">
+            <div class="row">
+                <div class ="eleven columns offset-by-one my-title">
+                    <h1 class="sub-header">Luke's Projects</h1>
+                </div>
+            </div>
+            <div class="row content">
+                <div class = "eleven columns offset-by-one blog-text">
+                    <div class = "nav-menu">
+                        <div class = "site-nav">
+                            <h5 class="sub-header"><a href="../index.html">Site Links</a></h5>
+                            <ul>
+                                <li><a href="../about.html">About Me</a></li>
+                                <li><a href="../blog/blog.html">Blog</a></li>
+                                <li><a href="../projects/projects.html">Projects</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p><a href="naughts-and-crosses/naughts-and-crosses.html">Naughts and Crosses</a></p>
+                    <p>A simple game.  During the EDA course we were tasked with creating a two-player game of Naughts and Crosses.  The HTML and CSS were provided to us but we had to code the javascript.  At the end of the assignement, the game barely worked.  I figured I could do better..  So I made it fully functional and added an AI opponent to make it a single player game.  The AI is rather basic.  It follows the following rules when choosing where to place a piece.</p>
+                    <ul>
+                      <li>If it can win, it always wins</li>
+                      <li>Otherwise, if it can stop the player from winning, it does so</li>
+                      <li>Otherwise, it takes the middle spot</li>
+                      <li>If the middle spot is not free, it takes a random spot - with extra weighting given to the corners.</li>
+                    </ul>
+                    <p>Funnily enough, the AI part of the code was relatively straight-forward for me to program.  I got stuck when I tried to add a banner above the game board to notify the game result.  Try as I might I could not get it to keep the board in the middle of the screen.  Eventually I decided that I had probably spent enough time on it and that I should move on to the other assignments.  I've included the game here to show where I have come from.  And that I need to spend more time exploring layouts using HTML and CSS.</p>
+                </div>
+            </div>
+            <div class="row">
+                  <div class="twelve columns my-footer">
+                    <h5>Thanks for visiting!</h5>
+                  </div>
+            </div>
+        </div>
     </body>
 </html>
